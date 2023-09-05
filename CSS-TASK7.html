@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+
+        <style>
+
+            body{
+                background-color: rgba(85, 4, 58, 0.867);
+                margin-top: 75px;
+                
+            }
+        table {
+            color:white;
+            background-color: rgb(99, 7, 64);
+            height: 500px;
+            width: 500px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .address {
+            height: 200px;
+        }
+
+        .register{
+            display: flex;
+            justify-content: center;
+            margin-left: 10%;
+            height: 40px;
+            width: 80%;
+            border-radius: 5px;
+
+        }
+    </style>
+    </head>
+
+    <body>
+        
+     <center>
+    
+        <table border="0">
+            <tr>
+                <td><label for "first_name">First name : </label></td>
+                <td><input type="text" name="first_name"
+                        placeholder="your name" /></td>
+            </tr>
+
+            <tr>
+                <td><label for "email">Email : </label></td>
+                <td><input type="email" name="email"
+                        placeholder="your email" /></td>
+            </tr>
+
+            <tr>
+                <td><label for "password">Password : </label></td>
+                <td><input type="password" name="password"
+                        /></td>
+            </tr>
+            <tr>
+                <td><label for "phone_number">Phone Number : </label></td>
+                <td><input type="number" name="phone_number"
+                         /></td>
+            </tr>
+
+            <tr>
+                <td><label> Gender: </label></td>
+                <td>
+                    <input type="radio" name="Gender" /> : Male
+                    
+                    <input type="radio" name="Gender" /> : Female
+                    
+                    <input type="radio" name="Gender" /> : other
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for "language">Language : </label></td>
+                <td><select name="language">
+                        <option value disabled selected>select Language</option>
+                        <option>English</option>
+                        <option>Hindi</option>
+                        <option>Tamil</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td><label for "zip">Zip-code : </label></td>
+                <td><input type="text" name="zip"
+                         /></td>
+            </tr>
+
+            <tr class="about">
+                <td><label for "about">About : </label></td>
+                <td><input type name="about" placeholder="Write about yourself...." /></td>
+            </tr>
+        
+        <tr ><td colspan="2"><input class="register" "specialinput" type="submit" value="Register" /></td></tr>
+        
+        
+    </center>
+    </body>
+
+</html>

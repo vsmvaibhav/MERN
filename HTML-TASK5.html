@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>task5</title>
+
+    <style>
+        table {
+            border: 1 solid black;
+            width: 60%;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+            border: 1px solid black;
+        }
+
+        .address {
+            height: 200px;
+        }
+
+        #reg {
+            width: auto;
+        }
+
+        #secondlastcheckbox,
+        #link {
+            border: 1px solid black;
+            
+        }
+
+        #link{
+            text-align: end;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+    <h1 style="color: blue;">Registration Form</h1>
+
+    <table>
+        <tr>
+            <td><label for "first_name"><b>First name </b></label></td>
+            <td><input type="text" name="first_name"  /></td>
+        </tr>
+        <tr>
+            <td><label for "last_name"><b>Last name </b></label></td>
+            <td><input type="text" name="last_name"  /></td>
+        </tr>
+        <tr>
+            <td><label for "email"><b>Email </b></label></td>
+            <td><input type="email" name="email"  /></td>
+        </tr>
+
+        <tr>
+            <td><label for "password"><b>Password </b></label></td>
+            <td><input type="password" name="password"  /></td>
+        </tr>
+        <tr>
+            <td><label for "re_password"><b>Re Password </b></label></td>
+            <td><input type="password" name="re_password"  /></td>
+        </tr>
+
+        <tr>
+            <td><label><b> Gender </b></label></td>
+            <td>
+                <input type="radio" name="Gender"  /> Male
+                <br />
+                <input type="radio" name="Gender" /> Female
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td><label for "age"><b>Age  </b></label></td>
+            <td><input type="number" name="age"  /></td>
+        </tr>
+
+        <tr>
+            <td><label for "phone_number"><b>Phone Number  </b></label></td>
+            <td><input type="number" name="phone_number"  /></td>
+        </tr>
+
+
+        <tr class="address">
+            <td><label for "address"><b>Address </b></label></td>
+            <td><input type="" name="address" /></td>
+        </tr>
+
+        <tr>
+            <td><label for "state"><b>State </b></label></td>
+            <td><input type="text" name="state"  /></td>
+        </tr>
+
+
+        <tr>
+            <td><label for "country"><b>Country </b></label></td>
+            <td><select name="country">
+                    <option>India</option>
+                    <option>US</option>
+                    <option>Canada</option>
+                    <option>Japan</option>
+                </select></td>
+        </tr>
+
+        <tr>
+            <td><label for "lang"><b>Languages Known </b></label></td>
+            <td>
+                <input type="checkbox" /> English
+                <input type="checkbox" /> Kannada
+                <input type="checkbox" /> Hindi
+                <input type="checkbox" /> Telugu
+            </td>
+        </tr>
+
+        <tr>
+            <td id="secondlastcheckbox" colspan="2">
+                <input type="checkbox" checked /> Hereby I declare the given details are true 
+            </td>
+        </tr>
+
+        <tr>
+            <td id="link" colspan="2">
+                Log in to <a href="https://drive.google.com/drive/folders/1jXkqN1xY_STHuOB1mdJZEboLTiq1RXch">Ethnus </a>
+                webiste
+            </td>
+        </tr>
+
+    </table>
+
+    <br />
+    <input id="reg" type="submit" value="Register" />
+
+</center>
+</body>
+
+</html>

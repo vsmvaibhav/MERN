@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+
+            h1{
+                text-align: center;
+            }
+            nav {
+                position: absolute;
+                top: 100px;
+            }
+            #fav
+            {
+                text-align: center;
+                text-size-adjust:80%;
+
+            }
+    
+            #mySidenav a {
+                position: absolute;
+                left: -90px;
+                transition: 0.4s;
+                padding: 17px;
+                width: 150px;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-radius: 0 5px 5px 0;
+            }
+    
+            #mySidenav a:hover {
+                left: 0;
+            }
+    
+            #Home {
+                top: 100px;
+                background-color: #04AA6D;
+            }
+    
+            #Topic{
+                top: 160px;
+                background-color: #2196F3;
+            }
+    
+            #project {
+                top: 220px;
+                background-color: #f44336;
+            }
+    
+            #contact {
+                top: 280px;
+                background-color: #555;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Hoverable Sidenav Buttons</h1>
+        <div id="fav">
+            Hover the button in the left side navigation to open them.
+        </div>
+        </div id="nav">
+        <div id="mySidenav" class="sidenav">
+            <a href="#" id="Home">Home</a>
+            <a href="#" id="Topic">Topic</a>
+            <a href="#" id="project">Projects</a>
+            <a href="#" id="contact">Contact</a>
+        </div>
+    </body>
+</html>

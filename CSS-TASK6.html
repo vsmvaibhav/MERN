@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            height:600px;
+            width:500px;
+        }
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 200px;
+            background-image: url('profile.jpg'); 
+            background-size: cover;
+        }
+
+        .input-container {
+            margin-bottom: 20px;
+        }
+
+        .input-container label {
+            display: block;
+            text-align: left;
+        }
+
+        .input-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .login-button {
+            background-color: #1a9e08;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-button:hover {
+            background-color: #11f36f;
+        }
+
+        .rm{
+            text-align: left;
+        }
+        .cancel{
+            background-color: red;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;    
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: left;
+            
+                
+        }
+
+        .forget_pass{
+            text-align: right;
+        }
+
+
+        .profile {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        #cancelB
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img class="profile" src="./profile.jpg" alt="Profile Photo">
+
+        <div class="input-container">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div class="input-container">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+        
+        <button class="login-button">Login</button><br/>
+        <div class="rm">
+
+            <label for="remember"></label>
+            <input type="checkbox" id="remember" name="remember" checked>Remember me<br/><br/>
+            
+        </div>
+    <div id="cancelB">
+        <button class="cancel">Cancel</button>
+    </div>
+        <div class="forget_pass">
+            <a href="#">forget password ?</a>
+        </div>
+    </div>
+    </body>
+</html>

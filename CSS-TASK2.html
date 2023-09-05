@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bars</title>
+
+    <style>
+        #home
+        {
+            background-color: #ffa41c;
+        }
+        #home_hori
+        {
+            background-color: grey;
+            
+            
+        }
+      .vn {
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid black;
+      }
+      .vertical-navbar {
+        width: 200px;
+        background-color: #77e3e3;
+        color: #fff;
+      }
+
+      .vertical-navbar ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .vertical-navbar li {
+        padding: 10px;
+        text-align: center;
+      }
+
+      .vertical-navbar a {
+        text-decoration: none;
+      }
+
+      .vertical-navbar a:hover {
+        background-color: #e2de0c;
+      }
+
+      .hn {
+        width: 250px;
+        padding-left: 10px;
+        padding-right: 0px;
+        border: 2px solid black;
+        
+      }
+
+      .horizontal-navbar {
+        background-color: #d4caca;
+        color: #fff;
+        
+      }
+
+      .horizontal-navbar ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+
+      }
+
+      .horizontal-navbar li {
+        padding: 10px;
+        
+      }
+
+      .horizontal-navbar a {
+        text-decoration: none;
+      }
+
+      .horizontal-navbar a:hover {
+        background-color: #555;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h3>Vertical Navigation bar</h3>
+    <div class="vn">
+      <div class="vertical-navbar">
+        <ul>
+          <li id="home"><a href="#">Home</a></li>
+          <li><a href="https://www.w3schools.com/java/">Java</a></li>
+          <li><a href="https://www.w3schools.com/howto/howto_make_a_website.asp">HTML</a></li>
+          <li><a href="https://www.w3schools.com/css/css_website_layout.asp">CSS</a></li>
+          <li><a href="https://bootstrapmade.com/website-templates/">BOOTSTRAP</a></li>
+        </ul>
+      </div>
+    </div>
+    <h3>Horizontal Navigation bar</h3>
+    <div class="hn">
+      <div class="horizontal-navbar">
+        <ul>
+          <li id="home_hori"><a href="#">Home</a></li>
+          <li><a href="https://www.w3schools.com/java/">Java</a></li>
+          <li><a href="https://www.w3schools.com/howto/howto_make_a_website.asp">HTML</a></li>
+          <li><a href="https://www.w3schools.com/css/css_website_layout.asp">CSS</a></li>
+        
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
